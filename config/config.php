@@ -1,19 +1,19 @@
 <?php
 
 if (!defined('PROJECT_PATH')) {
-    define('PROJECT_PATH', 'http://localhost/project-path'); // replace this value with your project path
+    define('PROJECT_PATH', 'https://sslcommerzphp.local'); // replace this value with your project path
 }
 
 if (!defined('IS_SANDBOX')) {
-    define('IS_SANDBOX', false); // 'true' for sandbox, 'false' for live
+    define('IS_SANDBOX', true); // 'true' for sandbox, 'false' for live
 }
 
 if (!defined('STORE_ID')) {
-    define('STORE_ID', ''); // your store id. For sandbox, register at https://developer.sslcommerz.com/registration/
+    define('STORE_ID', 'white631394893143b'); // your store id. For sandbox, register at https://developer.sslcommerz.com/registration/
 }
 
 if (!defined('STORE_PASSWORD')) {
-    define('STORE_PASSWORD', ''); // your store password.
+    define('STORE_PASSWORD', 'white631394893143b@ssl'); // your store password.
 }
 
 return [
