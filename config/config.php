@@ -9,7 +9,7 @@ if (!defined('IS_SANDBOX')) {
 }
 
 if (!defined('STORE_ID')) {
-    define('STORE_ID', ''); // your store id. For sandbox, register at https://developer.sslcommerz.com/registration/
+    define('STORE_ID', 'w'); // your store id. For sandbox, register at https://developer.sslcommerz.com/registration/
 }
 
 if (!defined('STORE_PASSWORD')) {
